@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义属性 包括外圆半径 内圆半径 圆环颜色 文本内容 文本大小-->
+    <declare-styleable name="MyView">
+
+        <attr name="bigRadius" format="dimension" />
+        <attr name="smallRadius" format="dimension" />
+        <attr name="color1" format="color" />
+        <attr name="text" format="string" />
+        <attr name="textSize" format="dimension" />
+
+    </declare-styleable>
+</resources>
